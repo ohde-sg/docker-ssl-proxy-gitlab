@@ -8,6 +8,4 @@ RUN a2enmod proxy
 RUN a2enmod proxy_http
 RUN a2enmod ssl
 
-#COPY ssl-default.conf /etc/apache2/sites-enabled/
-
 WORKDIR /var/www/html
